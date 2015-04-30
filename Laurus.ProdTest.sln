@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laurus.ProdTest.CommandLine", "Laurus.ProdTest\Laurus.ProdTest.CommandLine.csproj", "{62438E38-F436-47CB-82A3-AF16E3393AC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laurus.ProdTest.Core", "Laurus.ProdTest.Core\Laurus.ProdTest.Core.csproj", "{A2B6D463-E49A-4D51-9EA7-A976D9711A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laurus.ProdTest.UnitTests", "Laurus.ProdTest.UnitTests\Laurus.ProdTest.UnitTests.csproj", "{16FB67C8-436D-452B-A2D8-BD4B04958BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laurus.ProdTest.Ui", "Laurus.ProdTest.Ui\Laurus.ProdTest.Ui.csproj", "{02D01430-25C1-489D-9CE9-AF9FAAFC3BCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4C5329FF-9F82-47CE-BC6D-5076384916D2}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CEFF43BB-3DEF-401C-AD5D-1CD930D30E0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laurus.ProdTest.Sample", "Laurus.ProdTest.Sample\Laurus.ProdTest.Sample.csproj", "{D5A32F37-ED3B-4E4D-8DF1-5AB6CF56B576}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://laurus.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Laurus.ProdTest.Core\\Laurus.ProdTest.Core.csproj
+		SccProjectName1 = Laurus.ProdTest.Core
+		SccLocalPath1 = Laurus.ProdTest.Core
+		SccProjectUniqueName2 = Laurus.ProdTest.Ui\\Laurus.ProdTest.Ui.csproj
+		SccProjectName2 = Laurus.ProdTest.Ui
+		SccLocalPath2 = Laurus.ProdTest.Ui
+		SccProjectUniqueName3 = Laurus.ProdTest.UnitTests\\Laurus.ProdTest.UnitTests.csproj
+		SccProjectName3 = Laurus.ProdTest.UnitTests
+		SccLocalPath3 = Laurus.ProdTest.UnitTests
+		SccProjectUniqueName4 = Laurus.ProdTest\\Laurus.ProdTest.CommandLine.csproj
+		SccProjectName4 = Laurus.ProdTest
+		SccLocalPath4 = Laurus.ProdTest
+		SccProjectUniqueName5 = Laurus.ProdTest.Sample\\Laurus.ProdTest.Sample.csproj
+		SccProjectName5 = Laurus.ProdTest.Sample
+		SccLocalPath5 = Laurus.ProdTest.Sample
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62438E38-F436-47CB-82A3-AF16E3393AC8}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{62438E38-F436-47CB-82A3-AF16E3393AC8}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{62438E38-F436-47CB-82A3-AF16E3393AC8}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{62438E38-F436-47CB-82A3-AF16E3393AC8}.Debug|x86.ActiveCfg = Debug|x86
+		{62438E38-F436-47CB-82A3-AF16E3393AC8}.Debug|x86.Build.0 = Debug|x86
+		{62438E38-F436-47CB-82A3-AF16E3393AC8}.Release|Any CPU.ActiveCfg = Release|x86
+		{62438E38-F436-47CB-82A3-AF16E3393AC8}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{62438E38-F436-47CB-82A3-AF16E3393AC8}.Release|Mixed Platforms.Build.0 = Release|x86
+		{62438E38-F436-47CB-82A3-AF16E3393AC8}.Release|x86.ActiveCfg = Release|x86
+		{62438E38-F436-47CB-82A3-AF16E3393AC8}.Release|x86.Build.0 = Release|x86
+		{A2B6D463-E49A-4D51-9EA7-A976D9711A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B6D463-E49A-4D51-9EA7-A976D9711A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B6D463-E49A-4D51-9EA7-A976D9711A90}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A2B6D463-E49A-4D51-9EA7-A976D9711A90}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A2B6D463-E49A-4D51-9EA7-A976D9711A90}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A2B6D463-E49A-4D51-9EA7-A976D9711A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B6D463-E49A-4D51-9EA7-A976D9711A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B6D463-E49A-4D51-9EA7-A976D9711A90}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A2B6D463-E49A-4D51-9EA7-A976D9711A90}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A2B6D463-E49A-4D51-9EA7-A976D9711A90}.Release|x86.ActiveCfg = Release|Any CPU
+		{16FB67C8-436D-452B-A2D8-BD4B04958BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FB67C8-436D-452B-A2D8-BD4B04958BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FB67C8-436D-452B-A2D8-BD4B04958BE8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{16FB67C8-436D-452B-A2D8-BD4B04958BE8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{16FB67C8-436D-452B-A2D8-BD4B04958BE8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{16FB67C8-436D-452B-A2D8-BD4B04958BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FB67C8-436D-452B-A2D8-BD4B04958BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16FB67C8-436D-452B-A2D8-BD4B04958BE8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{16FB67C8-436D-452B-A2D8-BD4B04958BE8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{16FB67C8-436D-452B-A2D8-BD4B04958BE8}.Release|x86.ActiveCfg = Release|Any CPU
+		{02D01430-25C1-489D-9CE9-AF9FAAFC3BCE}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{02D01430-25C1-489D-9CE9-AF9FAAFC3BCE}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{02D01430-25C1-489D-9CE9-AF9FAAFC3BCE}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{02D01430-25C1-489D-9CE9-AF9FAAFC3BCE}.Debug|x86.ActiveCfg = Debug|x86
+		{02D01430-25C1-489D-9CE9-AF9FAAFC3BCE}.Debug|x86.Build.0 = Debug|x86
+		{02D01430-25C1-489D-9CE9-AF9FAAFC3BCE}.Release|Any CPU.ActiveCfg = Release|x86
+		{02D01430-25C1-489D-9CE9-AF9FAAFC3BCE}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{02D01430-25C1-489D-9CE9-AF9FAAFC3BCE}.Release|Mixed Platforms.Build.0 = Release|x86
+		{02D01430-25C1-489D-9CE9-AF9FAAFC3BCE}.Release|x86.ActiveCfg = Release|x86
+		{02D01430-25C1-489D-9CE9-AF9FAAFC3BCE}.Release|x86.Build.0 = Release|x86
+		{D5A32F37-ED3B-4E4D-8DF1-5AB6CF56B576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A32F37-ED3B-4E4D-8DF1-5AB6CF56B576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A32F37-ED3B-4E4D-8DF1-5AB6CF56B576}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D5A32F37-ED3B-4E4D-8DF1-5AB6CF56B576}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D5A32F37-ED3B-4E4D-8DF1-5AB6CF56B576}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D5A32F37-ED3B-4E4D-8DF1-5AB6CF56B576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A32F37-ED3B-4E4D-8DF1-5AB6CF56B576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A32F37-ED3B-4E4D-8DF1-5AB6CF56B576}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D5A32F37-ED3B-4E4D-8DF1-5AB6CF56B576}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D5A32F37-ED3B-4E4D-8DF1-5AB6CF56B576}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Laurus.ProdTest.vsmdi
+	EndGlobalSection
+EndGlobal
